@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>One Page Wonder - Start Bootstrap Template</title>
+        <title>Tevin Coleman's Final Lab Report</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
@@ -16,16 +16,6 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
-            <div class="container px-5">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                    </ul>
-                </div>
-            </div>
-        </nav>
         <!-- Header-->
         <header class="masthead text-center text-white">
             <div class="masthead-content">
@@ -35,7 +25,7 @@
                     <h3 class="masthead-subheading mb-0">Spring 2024 Projects</h3>
                 </div>
             </div>
-            <div class="bg-circle-1 bg-circle"></div>
+            <div class="bg-assets.Philly Skyline.jpeg"></div>
         </header>
         <!-- Content section 1-->
         <section id="scroll">
@@ -47,6 +37,7 @@
                     <div class="col-lg-6 order-lg-1">
                         <div class="p-5">
                             <h2 class="display-4">Pennsylvania County Voting by Percentages </h2>
+                            <h1>Narrative </h1>
                             <p>For this project, I was tasked with creating a choropleth map of the voting of political groups amongst counties in Pennsylvania for the 2020 Election between the Presidential candidates Joe Biden and Donald Trump. Each shade of color represents a percentage of voters for each group; Red for the Republican Party and Blue for the Democratic Party. The purpose of this assignment was to see the breakdown of how each county across the state voted during the 2020 Election and the possible trend that could establish in future elections. </p>
                         </div>
                     </div>
@@ -63,6 +54,7 @@
                     <div class="col-lg-6">
                         <div class="p-5">
                             <h2 class="display-4">Water Toxicity in Flint, MI </h2>
+                           <h1>Narrative </h1>
                             <p>
 The problem being addressed is who is at risk of drinking poisonous water from the increasing water toxicity in Flint, Michigan. Data was provided by the University of Michigan which included data such as rivers, service lines, pollution-producing facilities, and data about the tons of pollution those facilities created. What is done is overlapping buffers of critical points where pollution is over 10,000 tons in certain key points throughout the city. 
 </p>
@@ -77,16 +69,24 @@ The problem being addressed is who is at risk of drinking poisonous water from t
                 <div class="row gx-5 align-items-center">
                     <div class="col-lg-6 order-lg-2">
                         <div class="p-5"><img class="img-fluid rounded-square" src="assets/Chicago Homicide.jpg" alt="..." /></div>
+                        <div class="p-5"><img class="img-fluid rounded-square" src="assets/AirBnB.jpg" alt="..." /></div>
                     </div>
                     <div class="col-lg-6 order-lg-1">
                         <div class="p-5">
                             <h2 class="display-4">Relational Data Models</h2>
-                            <h1>Implementing GIS software to create a relational data model </h1>
-                            <br> for the spatial relationships that exisit between Chicago's Police Districts,</br> 
+                            <h1>Narrative </h1>
+                            <br> </br> 
                             <p>Implementing GIS software to create a relational data model for the spatial relationships that exisit between Chicago's Police Districts, homicides, and AirBnB data (reviews and average price). Examining how homicides and certain AirBnB data overlayed with the individual districts of Chicago gives an insight into how these data sets overlap. The question that can be asked is if there is a relationship in the average price and reviews of an AirBnB predicting the homicide rate within any given police district?</p>
-                        </div>
-                    </div>
-                </div>
+                        <br> </br>
+                            <h2>Process</h2>
+                        <p> The first thing I had to do was to change how the data was presented by changing the coordinate systems to best fit the data from Chicago. From there, I have to overlap the data from each dataset with similar fields such as “district”. I also had to only select the data for “homicides” as the data provided also included human trafficking and save that as its own dataset. The number of homicides for each district and the number of reviews would have to be summarized so that they calculate how many of each existed for each district. Then I overlapped the fields that were created from that data to calculate the spatial relationship of how it looks over each district. Once that is created I could make the visual choropleth maps. For the average price of an Airbnb I just pulled up the table that was created as I was joining data. /p>
+                <br>  </br>
+                            <h2>Techniques Learned</h2>
+                             <br>  </br>
+                            <p>Joining Data</p>
+                             <p>Difference between "projections" and "project"</p>
+                             <p>Adding Fields</p>
+                             <p>Summarizing Data</p>
             </div>
         </section>
         <!-- Footer-->
